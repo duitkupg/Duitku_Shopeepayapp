@@ -1,5 +1,7 @@
 <?php
-include_once('ApiRequestor.php');
+namespace Duitku\Shopeepayapp\Helper\Duitku;
+// include_once('ApiRequestor.php');
+use Duitku\Shopeepayapp\Helper\Duitku\Duitku_ShopeeApp_ApiRequestor;
 class Duitku_ShopeeApp_Core {
 
   public static function getRedirectionUrl($baseUrl, $params)
