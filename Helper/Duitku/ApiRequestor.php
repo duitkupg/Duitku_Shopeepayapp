@@ -1,5 +1,4 @@
 <?php
-namespace Duitku\Shopeepayapp\Helper\Duitku;
 
 class Duitku_ShopeeApp_ApiRequestor {
 
