@@ -19,10 +19,10 @@ Before you begin to install through the composer, you need Magento marketplace a
 
 With these steps, you can custom/modify our Magento plugins to handle the business model that you want
 
-1. Download and extract the plugin you have previously downloaded from GitHub and rename the folder as Shopeepay.
+1. Download and extract the plugin you have previously downloaded from GitHub and rename the folder as Shopeepayapp.
 2. Upload to the root of the Magento folder (Magento installation folder) you use the FTP client of your choice.
 3. Locate the root Magento directory of your shop via FTP connection. </br>(By default the root folder is on SERVER_HOST/Magento)
-4. Move the Shopeepay folder into the Magento `root/app/code/Duitku` folder. </br>(You might need to create the folder `code/Duitku` if it is not exist).
+4. Move the Shopeepayapp folder into the Magento `root/app/code/Duitku` folder. </br>(You might need to create the folder `code/Duitku` if it is not exist).
 5. Run this command on terminal
 
     `bin/magento module:enable Duitku_Shopeepayapp`
